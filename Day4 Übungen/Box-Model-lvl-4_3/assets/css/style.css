@@ -1,0 +1,56 @@
+@font-face {
+    font-family: Leckerli_One;
+    src: url(../fonts/Leckerli_One/LeckerliOne-Regular.ttf);
+}
+@font-face {
+    font-family: Lato;
+    src: url(../fonts/Lato/Lato-Regular.ttf);
+}
+@font-face {
+    font-family: Courier_Prime;
+    src: url(../fonts/Courier_Prime/CourierPrime-Regular.ttf);
+}
+html {
+    font-family: MavenPro,Arial, Helvetica, sans-serif;
+  }
+img {
+    max-width: 100%;
+  }
+  * { 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+header{
+    background-color:#36B5B0;
+    height: 15vh;
+    margin-bottom:3vh;
+}
+header h1{
+    font-family: Leckerli_one,Arial, Helvetica, sans-serif;
+    font-size: 60px;
+    color: white;
+    text-align: center;
+    padding-top: 2vh ;
+    rotate: -10deg;
+    
+}
+main img{
+    margin: 0 33% 1vh 33%;
+    max-width: 100%;
+}
+main section{
+    font-family: Lato,Arial, Helvetica, sans-serif;
+    margin: 0 33% 3vh 33%;
+}
+main section h1{
+    margin-bottom: 1vh;
+}
+main section p{
+    margin-bottom: 1vh;
+}
+main section h2{
+    font-size: 16px;
+    color:  #0000EE;
+
+}
