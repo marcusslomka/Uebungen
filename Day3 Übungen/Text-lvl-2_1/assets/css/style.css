@@ -1,0 +1,29 @@
+main section h1 {
+  font-size: 48px;
+  background-color: darkgrey;
+  text-shadow: 2px 2px black;
+  font-family: Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+}
+main section p.first {
+    text-indent:5%;
+    word-spacing:10px;
+    font-family: 'Lucida Sans Unicode', 'Lucida Sans Regular', 'Lucida Grande', Geneva, Verdana, sans-serif;
+}
+main section p.second{
+    text-indent:15%;
+    word-spacing:0.005px
+}
+main section h2{
+    text-shadow: 1px 1px black;
+    letter-spacing: 5px;
+}
+main section p.third{
+    background-color: darkgrey;
+    line-height: 40px;
+}
+main section p.fourth{
+    background-color: black;
+    line-height: 60px;
+    color: white;
+}

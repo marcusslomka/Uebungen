@@ -1,0 +1,46 @@
+@font-face {
+    font-family: ChelseaMarket;
+    src: url(../fonts/Chelsea_Market/ChelseaMarket-Regular.ttf);
+}
+@font-face {
+    font-family: Fredoka_CondensedBold;
+    src: url(..//fonts/Fredoka/static/Fredoka-SemiBold.ttf);
+}    
+@font-face {
+    font-family: Fredoka_Regular;
+    src: url(../fonts/Fredoka/static/Fredoka_Expanded-Regular.ttf);
+}
+@font-face {
+    font-family: Pacifico;
+    src: url(../fonts/Pacifico/Pacifico-Regular.ttf);
+}
+@font-face {
+    font-family: PressStart2P;
+    src: url(../fonts/Press_Start_2P/PressStart2P-Regular.ttf);
+}
+html {
+    font-family: Pacifico,Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+header h1 {
+    background-color: chartreuse;
+    font-family: PressStart2P,Arial, Helvetica, sans-serif;
+    line-height: 60px;
+    text-align: center;
+}
+main section h3 {
+    display: inline;
+}
+main section h4 {
+    display: inline;
+    font-family: Fredoka_CondensedBold,Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-shadow: 2px 2px, red;
+}
+main section h5 {
+    display: inline;
+    font-family: Fredoka_Regular,Arial, Helvetica, sans-serif;
+    font-size: 10px;
+}
+main section h6 {
+    font-family: ChelseaMarket,Arial, Helvetica, sans-serif;
+    
+}
