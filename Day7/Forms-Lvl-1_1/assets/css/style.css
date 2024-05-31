@@ -1,0 +1,28 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+form{
+    /* background-color: green; */
+    display: inline-block;
+    margin-left: 33%;
+    padding-top: 5vh;
+}
+.star{
+    color: red;
+}
+.label{
+    display: block;
+    margin: 1vh 0 1vh 0 ;
+}    
+.input_name{
+    width: 49%;
+}
+.input{
+    width: 99%;
+}
+.submit{
+    background-color: aqua;
+    width: 99%;
+}
