@@ -8,14 +8,20 @@
 </head>
 <body>
     <main>
-        <form>
-            <h1>Contact Us</h1>
-
-            <input class="input" type="text" id="name" placeholder="Your Name">
-            <input class="input" type="email" placeholder="Email Address">
-            <textarea class="input" id="message" placeholder="Type your Message"></textarea>
-            <input class="submit" type="submit" value="Send">
-        
+        <fieldset>
+             <legend>Autentification</legend>
+            <form>
+               
+                <label for="email">Email:</label>
+                <input type="email" id="email" placeholder="email">
+                <label for="pw">Password:</label>
+                <input type="password" id="pw" placeholder="Password" maxlength="8">
+                <input class="buttons" type="submit" value="submit">
+                <input class="buttons" type="reset" value="reset">
+            
+                
+            </fieldset>
+            
         </form>
     </main>
 </body>
