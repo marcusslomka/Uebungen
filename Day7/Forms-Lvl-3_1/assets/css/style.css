@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    background-color: rgba(40, 143, 228, 0.796);
+    margin: 2vh 25% 0 33%;
+    padding: 2vh;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+header h1{
+    font-size: 30px;
+    color: white;
+    font-weight: lighter;
+}
+header p{
+    font-size: 15px;
+    color: white;
+}
+.headline{
+    /* background-color: brown; */
+    font-size: 20px;
+    color: rgba(40, 143, 228, 0.796);
+    margin: 2vh 33% 0 33%;
+    padding: 2vh;
+    display: inline-block;
+}
+.input{
+    margin: 2vh 36% 0 36%;
+    display: inline-block;
+    padding-right: 10vh;
+}
+.submit{
+    background-color: rgba(40, 143, 228, 0.796);
+    border-radius: 5px;
+    margin: 6vh 17% 0 33%;
+    padding: 1vh 2vh;
+    display: inline-block;
+}
+.terms{
+    font-size: 10px;
+    font-weight: lighter;
+}
