@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+section{
+    margin: 3vh 33% 0 33%;
+    background-color: rgba(7, 4, 81, 0.808);
+    color: white;
+}
+section h1{
+    text-align: center;
+    font-size: 30px;
+    margin: 3vh;
+}
+.input{
+    display: inline-block;
+    margin: 2vh;
+    padding: 1vh 17vw 0 0;
+    background-color: rgba(7, 4, 81, 0.808);
+
+}
+/* .activeBtn:active{
+    text-decoration: none;
+    background-color: rgba(3, 176, 3, 0.824);
+    color: white;
+    margin: 1vh 4%;
+    padding: 2vh 6vh;
+    display: inline-block; 
+} */
+.activeBtn{
+    text-decoration: none;
+    background-color: rgba(3, 176, 3, 0.824);
+    color: white;
+    margin: 1vh 4%;
+    padding: 2vh 6vh;
+    display: inline-block;
+}
