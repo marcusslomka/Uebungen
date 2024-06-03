@@ -8,11 +8,44 @@
 </head>
 <body>
     <main>
-        <nav>
-            <a class="activeBtn" href="./signup.html">Sign Up</a>
-            <a class="activeBtn" href="./index.html">Login</a>
-        </nav>
+        <form>
+            <article>
+                    <a class="activeBtn" href="./signup.html">Sign Up</a>
+                    <a class="activeBtn" href="./index.html">Login</a>
+            </article>
+            <section>
 
+                <h1>Sign Up For Free</h1>
+
+                <input 
+                    class="input_name"
+                    type="text" 
+                    id="first_name"
+                    placeholder="First Name">
+                    
+                <input 
+                    class="input_name"
+                    type="text"
+                    id="last_name"
+                    placeholder="Last Name">    
+
+                <input 
+                    class="input" 
+                    type="email" 
+                    id="email" 
+                    placeholder="Email">
+
+                <input 
+                    class="input" 
+                    type="password" 
+                    id="pw" 
+                    placeholder="Password" 
+                    pattern=".{14,}">
+
+                <input class="get_startet" type="submit" value="Get Started">
+
+            </section>
+        </form>
     </main>
 </body>
 </html>

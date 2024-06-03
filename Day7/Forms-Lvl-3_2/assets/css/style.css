@@ -3,22 +3,38 @@
     padding: 0;
     box-sizing: border-box;
 }
-section{
-    margin: 3vh 33% 0 33%;
-    background-color: rgba(7, 4, 81, 0.808);
+html{
+    font-family: Arial, Helvetica, sans-serif;
     color: white;
+}
+main{
+    width: 30vw;
+    margin: 3% auto;
+    background-color: rgba(7, 4, 81, 0.808);
+}
+article a{
+    display: inline-block;
+    color: white;
+    padding: 4%;  
+    margin: 1vh -10vh 0 10vh;  
 }
 section h1{
     text-align: center;
     font-size: 30px;
     margin: 3vh;
 }
-.input{
-    display: inline-block;
-    margin: 2vh;
-    padding: 1vh 17vw 0 0;
+.input{ 
+    width: 95%;
+    height: 30px;
+    margin: 2vh 1vh 0 1vh;
     background-color: rgba(7, 4, 81, 0.808);
-
+}
+.input_name{
+    width: 13vw;
+    padding-right: 3vw;
+    height: 30px;
+    margin: 2vh 0 0 1vh;
+    background-color: rgba(7, 4, 81, 0.808);
 }
 /* .activeBtn:active{
     text-decoration: none;
@@ -31,8 +47,22 @@ section h1{
 .activeBtn{
     text-decoration: none;
     background-color: rgba(3, 176, 3, 0.824);
-    color: white;
-    margin: 1vh 4%;
-    padding: 2vh 6vh;
-    display: inline-block;
 }
+section a{
+    text-align: right;
+    margin: 1vh 0 0 21vh;
+    color: green;
+}
+.login{
+    color: white;
+    margin: 2vh 0 2vh 4vh;
+    padding: 2vh 12vh;
+    background-color: green;
+}
+.get_startet{
+    color: white;
+    margin: 2vh 0 2vh 4vh;
+    padding: 2vh 10vh;
+    background-color: green;
+}
+
