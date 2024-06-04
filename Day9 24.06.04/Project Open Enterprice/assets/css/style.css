@@ -116,9 +116,33 @@ section{
 }
 .box{
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
     flex-direction: column;
-    height: 60vh;
-    width: 20%;
+    /* background-color: aqua; */
+    height: 40vh;
+    width: 28%;
+    border-radius: 8px;
+    box-shadow: 0 2 8 0 #000000 10%;
+}
+.box p{
+    text-align: center;
+}
+
+/* ---------------------------- */
+
+.kickstart{
+    display: flex;
+    justify-content: space-between;
+    width: 95%;
+    margin: 15vh auto;
+    /* background-color: red; */
+}
+.info{
+    /* background-color: aqua; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: start;
+    width: 40%;
 }
