@@ -36,7 +36,7 @@ font-family: Montserrat, Arial, Helvetica, sans-serif;
     font-size: 18px;
     font-weight: bold;
 }
-/* ---------------------------------- */
+/* -----------HEADER----------------------- */
 
 .headline{
     display: flex;
@@ -69,8 +69,9 @@ a{
 .last_link{
     color: #71a894;
 }
-section{
+.input{
     display: flex;
+    /* background-color: red; */
 }
 .new_model{
     display: flex;
@@ -90,7 +91,7 @@ section{
     font-size: 24px;
 }
 
-/* ----------------------------------- */
+/* -------------MAIN---------------------- */
 
 .intro{
     display: flex;
@@ -147,9 +148,6 @@ section{
     align-items: start;
     width: 40%;
 }
-.updates{
-
-}
 .devider{
     background-image: url(../img/Divider.png);
     background-repeat: no-repeat;
@@ -177,4 +175,7 @@ section{
     color: white;
     text-decoration: none;
     font-size: 24px;
+}
+.test{
+    width: 60%;
 }
