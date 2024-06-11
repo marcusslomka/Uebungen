@@ -62,12 +62,12 @@ a {
     "article16 article17 article18"
     "article19 article20 article21"
     "article22 article22 article22"
-    "article23 artcile24 article25"
+    "article23 article24 article25"
     "article26 article27 article28"
     "article29 article29 article29"
     "article30 article31 article32"
     ;
-    margin: 2rem 2rem;
+    /* margin: 2rem 2rem; */
 }
 .article1 {
     display: flex;
@@ -260,4 +260,35 @@ a {
     flex-direction: column;
     margin: 2rem 2rem;
     grid-area: article32;
+}
+
+/* ---------------Footer------------------- */
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    margin: 2rem 2rem;
+}
+.line_hight {
+    margin-top: 4vh;
+}
+.footer_article1 {
+   
+    width: 35%;
+}
+.bold {
+    font-weight: bold;
+}
+footer article h4 {
+    font-size: 15px;
+    font-weight: bold;
+}
+.low_size {
+    font-size: 12px;
+    line-height: 10vh;
+    color: #848484;
+}
+ul li {
+    text-decoration: none;
+    list-style: none;
 }
