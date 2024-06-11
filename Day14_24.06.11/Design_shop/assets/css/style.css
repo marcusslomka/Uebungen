@@ -1,0 +1,263 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: karla;
+    src: url(../fonts/Karla/Karla-VariableFont_wght.ttf);
+}
+html {
+    font-family: karla, Arial, Helvetica, sans-serif;
+    color: #323A45;
+}
+img {
+    max-width: 100%;
+}
+.brand {
+    font-size: 15px;
+    color: #848484;
+}
+.font_name_price {
+    font-size: 15px;
+    color: #000000;
+}
+.article_name_price {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2vh;
+}
+
+/* --------Header---------- */
+
+header {
+    display: flex;
+    justify-content: space-between;
+    margin: 2rem 2rem;
+}
+header ul {
+    display: flex;
+    justify-content: space-between;
+    width: 30vw;
+    
+}
+a {
+    text-decoration: none;
+    color: #323A45;
+}
+
+/* -----------MAIN-------------- */
+
+.articles {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-template-areas: 
+    "article1 article1 article1"
+    "article2 article3 article4"
+    "article5 article6 article7"
+    "article8 article8 article8"
+    "article9 article10 article11"
+    "article12 article13 article14"
+    "article15 article15 article15"
+    "article16 article17 article18"
+    "article19 article20 article21"
+    "article22 article22 article22"
+    "article23 artcile24 article25"
+    "article26 article27 article28"
+    "article29 article29 article29"
+    "article30 article31 article32"
+    ;
+    margin: 2rem 2rem;
+}
+.article1 {
+    display: flex;
+    flex-direction: column;
+    margin: 2rem 2rem;
+    grid-area: article1;
+}
+.article2 {
+    display: flex;
+    flex-direction: column;
+    margin: 2rem 2rem;
+    grid-area: article2;
+}
+.article3 {
+    display: flex;
+    flex-direction: column;
+    margin: 2rem 2rem;
+    grid-area: article3;
+}
+.article4 {
+    display: flex;
+    flex-direction: column;
+    margin: 2rem 2rem;
+    grid-area: article4;
+}
+.article5 {
+    display: flex;
+    flex-direction: column;
+    margin: 2rem 2rem;
+    grid-area: article5;
+}
+.article6 {
+    display: flex;
+    flex-direction: column;
+    margin: 2rem 2rem;
+    grid-area: article6;
+}
+.article7 {
+    display: flex;
+    flex-direction: column;
+    margin: 2rem 2rem;
+    grid-area: article7;
+}
+.article8 {
+    display: flex;
+    flex-direction: column;
+    margin: 2rem 2rem;
+    grid-area: article8;
+}
+.article9 {
+    display: flex;
+    flex-direction: column;
+    margin: 2rem 2rem;
+    grid-area: article9;
+}
+.article10 {
+    display: flex;
+    flex-direction: column;
+    margin: 2rem 2rem;
+    grid-area: article10;
+}
+.article11 {
+    display: flex;
+    flex-direction: column;
+    margin: 2rem 2rem;
+    grid-area: article11;
+}
+.article12 {
+    display: flex;
+    flex-direction: column;
+    margin: 2rem 2rem;
+    grid-area: article12;
+}
+.article13 {
+    display: flex;
+    flex-direction: column;
+    margin: 2rem 2rem;
+    grid-area: article13;
+}
+.article14 {
+    display: flex;
+    flex-direction: column;
+    margin: 2rem 2rem;
+    grid-area: article14;
+}
+.article15 {
+    display: flex;
+    flex-direction: column;
+    margin: 2rem 2rem;
+    grid-area: article15;
+}
+.article16 {
+    display: flex;
+    flex-direction: column;
+    margin: 2rem 2rem;
+    grid-area: article16;
+}
+.article17 {
+    display: flex;
+    flex-direction: column;
+    margin: 2rem 2rem;
+    grid-area: article17;
+}
+.article18 {
+    display: flex;
+    flex-direction: column;
+    margin: 2rem 2rem;
+    grid-area: article18;
+}
+.article19 {
+    display: flex;
+    flex-direction: column;
+    margin: 2rem 2rem;
+    grid-area: article19;
+}
+.article20 {
+    display: flex;
+    flex-direction: column;
+    margin: 2rem 2rem;
+    grid-area: article20;
+}
+.article21 {
+    display: flex;
+    flex-direction: column;
+    margin: 2rem 2rem;
+    grid-area: article21;
+}
+.article22 {
+    display: flex;
+    flex-direction: column;
+    margin: 2rem 2rem;
+    grid-area: article22;
+}
+.article23 {
+    display: flex;
+    flex-direction: column;
+    margin: 2rem 2rem;
+    grid-area: article23;
+}
+.article24 {
+    display: flex;
+    flex-direction: column;
+    margin: 2rem 2rem;
+    grid-area: article24;
+}
+.article25 {
+    display: flex;
+    flex-direction: column;
+    margin: 2rem 2rem;
+    grid-area: article25;
+}
+.article26 {
+    display: flex;
+    flex-direction: column;
+    margin: 2rem 2rem;
+    grid-area: article26;
+}
+.article27 {
+    display: flex;
+    flex-direction: column;
+    margin: 2rem 2rem;
+    grid-area: article27;
+}
+.article28 {
+    display: flex;
+    flex-direction: column;
+    margin: 2rem 2rem;
+    grid-area: article28;
+}
+.article29 {
+    display: flex;
+    flex-direction: column;
+    margin: 2rem 2rem;
+    grid-area: article29;
+}
+.article30 {
+    display: flex;
+    flex-direction: column;
+    margin: 2rem 2rem;
+    grid-area: article30;
+}
+.article31 {
+    display: flex;
+    flex-direction: column;
+    margin: 2rem 2rem;
+    grid-area: article31;
+}
+.article32 {
+    display: flex;
+    flex-direction: column;
+    margin: 2rem 2rem;
+    grid-area: article32;
+}
