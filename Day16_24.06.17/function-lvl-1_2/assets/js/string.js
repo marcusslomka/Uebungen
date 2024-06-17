@@ -29,3 +29,26 @@ math(5,0);
 math(45, 173);
 math(1, 1000);
 
+console.clear(); //Für die letzte Aufgabe cleared
+
+//!Aufgabe 5
+function colorChange(buttonNumber) {
+    const h1 = document.querySelector("h1");
+    const body = document.querySelector("body")
+    if (buttonNumber == 1) {
+        h1.style.color = "red";
+        body.style.backgroundColor = "green";
+    }
+    if (buttonNumber == 2) {
+        h1.style.color = "blue";
+        body.style.backgroundColor = "orange";
+    }
+    if (buttonNumber == 3) {
+        h1.style.color = "purple";
+        body.style.backgroundColor = "aqua";
+    }
+    if (buttonNumber == 4) {
+        h1.style.color = "yellow";
+        body.style.backgroundColor = "red";
+    }
+}
