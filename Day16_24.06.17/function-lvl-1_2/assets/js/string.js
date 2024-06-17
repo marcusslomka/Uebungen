@@ -1,3 +1,11 @@
+//! Aufgabe 1
+function intro1() {
+    let a = 1 + 3;
+    console.log("Hello World");
+    console.log(`1 + 3 = ${a}`);
+}
+intro1();
+
 //! Aufgabe 2
 function intro2(paramName) {
     let name = "SuperCode:in";
@@ -29,7 +37,7 @@ math(5,0);
 math(45, 173);
 math(1, 1000);
 
-console.clear(); //Für die letzte Aufgabe cleared
+//console.clear(); //Für die letzte Aufgabe cleared
 
 //!Aufgabe 5
 function colorChange(buttonNumber) {
